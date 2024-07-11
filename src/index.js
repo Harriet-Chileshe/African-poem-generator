@@ -4,7 +4,7 @@ function displayReview(response) {
    new Typewriter("#safari-review", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 5,
+    delay: 1,
     cursor: "",
   });   
 }
