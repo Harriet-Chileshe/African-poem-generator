@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
@@ -17,7 +18,7 @@
         <main>
             <form id="poem-generator">
                 <input type="text" placeholder="Enter the topic of the African poem" autofocus required
-                    autocomplete="off" class="instructions" />
+                    autocomplete="off" class="instructions" id="user-instructions" />
                 <input type="submit" class="submit-button" />
 
             </form>
